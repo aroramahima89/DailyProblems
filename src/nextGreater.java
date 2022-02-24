@@ -1,4 +1,5 @@
-class Solution {
+import java.util.*;
+class nextGreater {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         int[] ans=new int[nums2.length];
         Stack<Integer> s=new Stack<Integer>();
